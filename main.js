@@ -3,3 +3,6 @@ function tocaSomAplausos(){
 }
 
 document.querySelector('tecla_aplausos').onclick=tocaSomAplausos;
+function tocaSomErro(){
+    document.querySelector
+}
