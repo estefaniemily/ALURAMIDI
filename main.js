@@ -27,12 +27,14 @@ function tocaSomRisadas(){
             
             function tocaSomTambores(){
                 document.querySelector ('#som_tecla_tambores').play();}
-document.querySelector ('tecla_apl').onclick=tocaSomTambores;
+document.querySelector ('tecla_tambores').onclick=tocaSomTambores;
 
 
 function tocaSomTrombeta () {
     document.querySelector ('#som_tecla_trombeta').play();}
     document.querySelector('tecla_trombeta').onclick=tocaSomTrombeta;
+
+    
     function tocaSomVitoria(){
         document.querySelection('#som_tecla_vitoria').play();}
         document.querySelection('tecla_vitoria').onclick=tocaSomVitoria;
